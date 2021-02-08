@@ -1,4 +1,4 @@
-INSERT INTO analytics_db.pageviews_history
+INSERT INTO analytics_db.pageviews_user_history
 (
 pageview_datetime,
 user_id,
