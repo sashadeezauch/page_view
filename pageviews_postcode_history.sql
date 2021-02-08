@@ -6,7 +6,7 @@ postcode,
 pageviews_count
 )                      
 SELECT
-pageview_datetim::date,
+pageview_datetime::date,
 hour(pageview_datetime),
 postcode,
 count(*) 
