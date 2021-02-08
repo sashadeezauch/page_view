@@ -17,7 +17,7 @@ default_args = {
 }
 
 dag = DAG('pageview_postcode',
-          schedule_interval='0 1 * * *',
+          schedule_interval='@daily',
           max_active_runs=1,
           catchup=False,
           default_args=default_args
