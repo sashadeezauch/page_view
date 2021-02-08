@@ -29,5 +29,5 @@ dag = DAG('pageview_postcode',
 pageviews_postcode = SQLTemplatedPythonOperator(task_id='pageviews_postcode',provide_context=True,
   templates_dict={'sql_file': dag_folder+'/page_views/pageviews_postcode.sql','dbEngine':'PG','dbHook':getDBHook('SNOWFLAKE','MASTER'),'sql_param_abc': '5 days'},dag=dag,)
 
-pageviews_postcode_snapshot = SQLTemplatedPythonOperator(task_id='pageviews_postcode_snapshot',provide_context=True,
+pageviews_postcode_snapshot = SQLTemplatedPythonOperator(task_id='pageviews_postcode_history',provide_context=True,
   templates_dict={'sql_file': dag_folder+'/page_views/pageviews_postcode_snapshot.sql','dbEngine':'PG','dbHook':getDBHook('SNOWFLAKE','MASTER'),'sql_param_abc': '5 days'},dag=dag,)
