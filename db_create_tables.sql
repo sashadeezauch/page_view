@@ -36,7 +36,7 @@ postcode VARCHAR(50),
 number_of_pageviews BIGINT
 );
 
-CREATE TABLE analytics_db.pageviews_postcode_snapshot
+CREATE TABLE analytics_db.pageviews_postcode_history
 (
 date DATE, 
 hour INTEGER,
