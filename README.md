@@ -7,4 +7,4 @@
 ![alt text](https://github.com/sashadeezauch/page_view/blob/main/Diagram.png?raw=true)
 
 *Airflow DAG to automate the script:*
-pageview_postcode.py
+pageview_postcode.py -- to run everyday at 1am 
