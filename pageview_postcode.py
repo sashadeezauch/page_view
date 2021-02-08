@@ -13,11 +13,11 @@ default_args = {
     'retries': 1,
     'catchup': False,
     'retry_delay': timedelta(minutes=2),
-    'start_date': datetime(2020, 12, 9)
+    'start_date': datetime(2021, 1, 1)
 }
 
 dag = DAG('pageview_postcode',
-          schedule_interval='0 */4 * * *',
+          schedule_interval='0 1 * * *',
           max_active_runs=1,
           catchup=False,
           default_args=default_args
