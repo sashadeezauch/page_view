@@ -19,7 +19,7 @@ id BIGINT,
 postcode VARCHAR(50) 
 );
 
-CREATE TABLE analytics_db.pageviews_history
+CREATE TABLE analytics_db.pageviews_user_history
 (
 historical_user_id SERIAL, --to auto increment 
 pageview_datetime TIMESTAMP,
