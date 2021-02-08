@@ -1,1 +1,1 @@
-https://github.com/sashadeezauch/page_view/blob/main/Warehouse%20Diagram.png
+![alt text](https://github.com/sashadeezauch/page_view/blob/main/Warehouse%20Diagram.png?raw=true)
