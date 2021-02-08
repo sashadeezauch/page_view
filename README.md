@@ -19,4 +19,4 @@
 *analytics_db.pageview_postcode:* used to record the total number of pageviews on a given date, hour and postcode. As the users_extract table only contains the latest user data we have to join it with the user history table to extract the most recent postcode - this only really needs to be done once a day as the users_extract gets updated once a day.
 
 **Airflow DAG to automate the script:**
-pageview_postcode.py -- to run everyday at 1am 
+pageview_postcode.py 
